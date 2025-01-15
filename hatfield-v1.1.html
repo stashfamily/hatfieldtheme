@@ -3,6 +3,10 @@
     Hatfield Theme v1.1
     by: Stashthemes (Cedrick Odompleh)
 
+    Install: https://stashthemes.com/themes/hatfield/
+    Documentation: https://stashthemes.com/support/hatfield/
+    Remove Install Buttons: https://stashthemes.com/pricing/
+
 -->
 <!DOCTYPE html> 
 <html> 
@@ -525,6 +529,9 @@
         
         .post-sizer, #posts article {
             width: 48.8%;
+        }
+
+        #posts article {
             margin:0 0 2.4% 0;
         }
         
@@ -536,6 +543,9 @@
         
         .post-columns-three .post-sizer, .post-columns-three #posts article {
             width: 32%;
+        }
+        
+        .post-columns-three #posts article {
             margin:0 0 2% 0;
         }
         
@@ -556,6 +566,9 @@
         @media screen and (max-width: 740px) {
             .post-columns-three .post-sizer, .post-columns-three #posts article {
                 width: 32.66% !important;
+            }
+
+            .post-columns-three #posts article {
                 margin:0 0 1% 0 !important;
             }
             
@@ -579,6 +592,9 @@
         @media screen and (min-width: 740px) {
             .post-columns-four .post-sizer, .post-columns-four #posts article {
                 width: 24%;
+            }
+
+            .post-columns-four #posts article {
                 margin:0 0 1.33% 0;
             }
             
@@ -598,6 +614,9 @@
         @media screen and (max-width: 740px) {
             .post-sizer, #posts article {
                 width: 48.8% !important;
+            }
+
+            #posts article {
                 margin:0 0 2.4% 0;
             }
             
@@ -1428,6 +1447,7 @@
             cursor:pointer;
             opacity:0;
             visibility:hidden;
+            font-size:12px;
         }
         
         /**** Footer *****/
@@ -2529,24 +2549,24 @@
         
         .install-theme {
             position: fixed;
-            right: 8px;
+            right: 4px;
             z-index: 10;
-            top: 16px;
-            color: white;
-            font-size: 12px;
+            top: 9px;
+            color: {color:Text};
+            font-size: 11px;
         }
         
         .install-theme a {
-            color: white;
-            border: 1px solid rgba(255, 255, 255, 0.4);
-            padding: 4px 8px;
+            color: {color:Text};
+            border: 1px solid {color:Text};
+            padding: 3px 6px;
             border-radius: 6px;
         }
         
         .install-theme a:hover {
-            border: 1px solid rgba(255, 255, 255, 0.8);
-            color:black;
-            background:white;
+            border: 1px solid {color:Text};
+            color:{color:Background};
+            background:{color:Text};
         }
         
         @media only screen and (max-width: 740px) {
